@@ -86,58 +86,60 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-header {
+body {
+  background-color: #FDFA93;
+}
+
+   header {
   position: relative;
-  background-color: red;
-  height: 33vh;
+  background-color: #FDFA93;
+  height: 22.5vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+
 }
 header>section {
   text-align: center;
-  background-color: green;
+  background-color: #51319E;
   width: 40%;
  
 }
-  header>div {
-    text-align: center;
-    background-color: purple;
-    width: 10%;
-    position:absolute;
-    top: 10px;
-    right: 10px;
-  }
+header>section>img {
 
-header>div>a {
-  margin: 0 1em;
+  max-width: 100%;
+  
+  
 }
+
+
 
 nav {
-  background-color: yellow;
+  
+  background-color: #51319E;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+  
+}
+nav>a {
+  color: #FDFA93;
 }
 
-.container {
 
-  height: 50vh; /*A éviter*/
-  background-color: brown;
-  width: 80%;
-  margin: 4em auto;
+
+
+main {
+
+  height: 75vh; /*A éviter*/
+  background-color:#51319E;
+  width: 95%;
+  margin: 1em auto;
   display: flex;
   flex-wrap: wrap;;
 
 }
 
-.container main {
-  background-color: pink;
-  width: 66%;/*70-2-2*/
-  padding: 2%
-}
-
-.container aside {
-  background-color: fuchsia;
-  width: 30%;
-
+footer {
+  background-color: #51319E;
 }
 
 
