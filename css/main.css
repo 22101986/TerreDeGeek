@@ -111,7 +111,7 @@ header>section>img {
   
 }
 header>div {
-  text-shadow: 0.5px 0.5px 0.5px #391F68;
+ 
   color: #391F68;
   font-size: 62.5%;
   height: 22.5vh;
@@ -122,7 +122,7 @@ header>div {
 
 
 nav {
-  
+
   background-color: #391F68;
   display:flex;
   flex-direction: row;
@@ -135,19 +135,49 @@ nav>a {
 
 
 
+ 
 
 main {
-
-  height: 75vh; /*A éviter*/
+  padding-left: 0.5em;
+  text-shadow: 0.5px 0.5px 0.5px white;
+  text-align: center;
+  font-size: 65%;
+  color: #F27200;
+  height: 67.5vh; 
   background-color:#391F68;
   width: 95%;
-  margin: 1em auto;
+  margin: 0.5em auto;
   display: flex;
   flex-wrap: wrap;;
-
 }
-
+main>h1 {
+  text-align: center;
+}
+main>div>section {
+  margin: 0.25em;
+  padding: 0.25em;
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: column;
+  justify-content: space-between;
+  }
+.padding {
+  text-align:center;
+  display: flex;
+  padding-left: 0.5em;
+}
+.footer{
+  display: flex;
+  align-items: flex-end; 
+  justify-content: flex-end;
+  
+}
 footer {
+  height: 27.5vh;
+  width: 100vh;
+  text-align: center;
+  font-size: 62.5%;
   background-color: #391F68;
 }
 
