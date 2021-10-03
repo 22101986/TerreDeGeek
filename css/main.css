@@ -114,8 +114,8 @@ header>div {
   text-shadow: 0.1px 0.1px 0.1px #F27200;
   font-family: "impact";
   color: #391F68;
-  font-weight: 200;
-  font-size: 67.5%;
+  font-weight: 150;
+  font-size: 62.5%;
   height: 22.5vh;
   width: 60%;
   text-align: center;
@@ -178,11 +178,15 @@ main>div>section {
   
 }
 footer {
-  height: 27.5vh;
+  height: 50vh;
   width: 100vh;
   text-align: center;
   font-size: 62.5%;
   background-color: #391F68;
+}
+footer>img {
+  height: 50%;
+  width: 50%;
 }
 
 
