@@ -87,19 +87,20 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-  background-color: #FDFA93;
+  background-color: #F27200;
 }
 
    header {
   position: relative;
-  background-color: #FDFA93;
+  background-color: #F27200;
   height: 22.5vh;
   display: flex;
 
+
 }
 header>section {
-  text-align: center;
-  background-color: #51319E;
+
+  height: auto;
   width: 40%;
  
 }
@@ -109,19 +110,27 @@ header>section>img {
   
   
 }
+header>div {
+  text-shadow: 0.5px 0.5px 0.5px #391F68;
+  color: #391F68;
+  font-size: 62.5%;
+  height: 22.5vh;
+  width: 60%;
+  text-align: center;
+}
 
 
 
 nav {
   
-  background-color: #51319E;
+  background-color: #391F68;
   display:flex;
   flex-direction: row;
   justify-content:space-around;
   
 }
 nav>a {
-  color: #FDFA93;
+  color: #F27200;
 }
 
 
@@ -130,7 +139,7 @@ nav>a {
 main {
 
   height: 75vh; /*A éviter*/
-  background-color:#51319E;
+  background-color:#391F68;
   width: 95%;
   margin: 1em auto;
   display: flex;
@@ -139,7 +148,7 @@ main {
 }
 
 footer {
-  background-color: #51319E;
+  background-color: #391F68;
 }
 
 
