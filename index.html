@@ -6,6 +6,9 @@
   <title>TERRE DE GEEK</title>
   <meta name="description" content="Altelier sur la structure HTML d'une page">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+    </style>
 
 
   <link rel="manifest" href="site.webmanifest">
@@ -51,27 +54,38 @@
     <h1>Nos meilleures ventes: </h1> 
     <div>
    <section>
-      <img src="clé_usb_suisse.jpg" alt="USBsuisse">
+      <img usemap="usb"src="clé_usb_suisse.jpg" alt="USBsuisse">
       <p class="padding">
         <h1>La Clé-USB-suisse</h1>
         <h2>Prix:</h2>
         <h2>99.99 euros ttc</h2>
+        <map name="usb">
+          <area shape="rect" coords="0,0,0,0" href="#" alt="fiche">
+
+        </map>
       </p>
    </section>
     <section>
-      <img src="minitel.jpg" alt="minitel">
+      <img usemap="minitel" src="minitel.jpg" alt="minitel">
       <p class="padding">
         <h1>Le Minitel</h1>
         <h2>Prix:</h2>
         <h2>99.99 francs ttc</h2>
+        <map name="minitel">
+          <area shape="rect" coords="0,0,0,0" href="#" alt="fiche">
+        </map>
       </p>
     </section>
     <section>
-      <img src="cpt_without_screen.jpg" alt="cptlight">
+      <img usemap="noScreen"src="cpt_without_screen.jpg" alt="cptlight">
       <p class= "padding">
         <h1>L'Ordinateur sans écran</h1>
         <h2>Prix:</h2>
         <h2>9999.99 euros hors taxes</h2>
+        <map name="noScreen">
+          <area shape="rect" coords="0,0,0,0" href="#" alt="fiche">
+
+        </map>
       </p>
     </section>
     </div>
@@ -84,10 +98,12 @@
   <footer>
     
       <div>
-        <a href="#">Facebook</a>
-        <a href="#">Twitter</a>
-        <a href="#">Linkedin</a>
-        <a href="#">Instagram</a>
+        <p>Facebook:
+          <a href="#" style="color: white">TerreDeGeek</a></p>
+        <p>Twitter
+          <a href="#" style="color: white">@TerreDeGeek</a></p>
+        <p>Pour plus d'information sur notre 
+          <a href="#" style="color: white">Cliquez ici</a></p>
       </div>
   
   </footer>
